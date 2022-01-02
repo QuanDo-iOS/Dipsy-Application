@@ -148,6 +148,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3iX-Vd-jWN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hhq-2F-eDr"/>
@@ -164,6 +167,14 @@
                             <constraint firstItem="Lat-VM-4s8" firstAttribute="leading" secondItem="2zA-Ii-Njc" secondAttribute="leading" id="uzU-ZF-XDw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="billTotalTextField" destination="hoc-4I-eJO" id="ptd-9c-8Fj"/>
+                        <outlet property="numberLabel" destination="b3A-Bj-XTX" id="O3V-bc-fcm"/>
+                        <outlet property="numberStepper" destination="cVl-CQ-TWg" id="eTI-9l-l8I"/>
+                        <outlet property="tenButton" destination="Rwu-A9-VfH" id="87J-Vk-D6p"/>
+                        <outlet property="twentyButton" destination="CKa-YD-tVk" id="0ER-7W-ava"/>
+                        <outlet property="zeroButton" destination="NIj-D2-Uq5" id="Ttj-Q6-0EV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
