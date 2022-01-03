@@ -49,8 +49,8 @@ class CalculateViewController: UIViewController {
         if segue.identifier == "goToResult" {
             let destinationVC = segue.destination as! ResultViewController
             destinationVC.total1Person = calculateBrain.totalPerPerson
-            destinationVC.tip = calculateBrain.billInfo!.tip
-            destinationVC.number = calculateBrain.billInfo!.split
+            destinationVC.tip = calculateBrain.getTip()
+            destinationVC.number = calculateBrain.getNumber()
         }
     }
     

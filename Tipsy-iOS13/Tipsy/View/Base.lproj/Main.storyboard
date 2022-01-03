@@ -248,7 +248,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="recalculateButotn:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="tTy-18-EMK"/>
+                                    <action selector="recalculateButton:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="TYP-Dn-aPY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split between 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5n-yI-QwU">
@@ -274,6 +274,7 @@
                             <constraint firstItem="SFV-my-Ds8" firstAttribute="trailing" secondItem="y5n-yI-QwU" secondAttribute="trailing" constant="50" id="vNT-Iz-x3b"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="dn3-Gc-SUs"/>
                     <connections>
                         <outlet property="infoBill" destination="y5n-yI-QwU" id="WvW-aa-AZF"/>
                         <outlet property="totalPerPerson" destination="cw2-SX-JMK" id="mrm-Gs-o3p"/>
