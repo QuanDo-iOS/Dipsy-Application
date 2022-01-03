@@ -12,6 +12,7 @@ struct BillInfo {
     let total : Float
     let tip : Int
     let split : Int
+    
     init(total : Float , tip : Int , split : Int) {
         self.total = total
         self.tip = tip
